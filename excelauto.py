@@ -301,6 +301,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     print(f" - No registrados (Zoom): {len(no_registrados)}")
     print(f" - Tasa de asistencia: {tasa:.2f}%")
 
+    input("\nPresiona Enter para salir...")  # <-- Agrega esta línea
+
     return 0
 
 
